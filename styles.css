@@ -99,16 +99,16 @@ img{
     background-color: transparent;
     background-clip: padding-box;
     border: 1px solid #dad3ce;
-    box-shadow: 0 0 1px #5d361c;
+    
     /* -webkit-appearance: none; */
     -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-    border-radius: .35rem;
+    border-radius: .55rem;
     
 }
 input:focus{
-    box-shadow: 0 0 5px #5d361c;
+    box-shadow: 10px black;
 }
 .active{
     border: 1px solid #5d361c;
@@ -147,6 +147,11 @@ input:focus{
     background: transparent;
     width: 20px;
     
+}
+.main-border{
+    border: solid 1px #5d361c;
+    box-shadow: 10px black;
+    /* #5d361c */
 }
 .btm {
     border: none;
