@@ -78,7 +78,7 @@ nav{
     transition-delay: 0s, 0s, 0s, 0s;
 }
 .head-stl{
-    padding: 10px 0px 0px 0px;
+    padding: 10px 10px 0px;
     /* background-image: linear-gradient(to bottom, #0c9281, #2c9a8c, #41a396, #52aba1, #63b3ab); */
     border-radius: 15px 15px 0px 0px;
 }
