@@ -55,14 +55,34 @@ nav{
 #feature{
     margin-left: auto;
     margin-right: auto;
+    
+}
+.jjj{
+    /* background-image: radial-gradient(circle, #d7e7e5, #cedcd7, #c7d1ca, #bfc6be, #b8bbb2); */
     padding: 30px 0px;
 }
 /* .my_div{
  
 } */
 .my_bg{
-    background-image: linear-gradient(to top, #ffffff, #fbfbfd, #f8f8fa, #f3f4f8, #eff1f6);
+   
+    /* background-image: linear-gradient(to top, #ffffff, #fbfbfd, #f8f8fa, #f3f4f8, #eff1f6); */
+    /* border: solid black 1px; */
+    border-radius: 15px;
+    padding-bottom: 1px;
+    box-shadow: 0px 2px 60px 0px rgb(0 0 0 / 10%);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    transition-property: background, border, border-radius, box-shadow;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.3s;
+    transition-timing-function: ease, ease, ease, ease;
+    transition-delay: 0s, 0s, 0s, 0s;
 }
+.head-stl{
+    padding: 10px 0px 0px 0px;
+    /* background-image: linear-gradient(to bottom, #0c9281, #2c9a8c, #41a396, #52aba1, #63b3ab); */
+    border-radius: 15px 15px 0px 0px;
+}
+
 .text{
     text-align: center;
 }
@@ -87,6 +107,10 @@ img{
     margin-left: auto;
     padding: 10px 0px;
    
+}
+.edits{
+    width: 50px;
+    padding-bottom: 10px;
 }
 .my_form{
     display: block;
