@@ -127,7 +127,8 @@ img{
     -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
-    border-radius: .55rem;
+    border-radius: 12px;
+    height: 42px !important;
     
 }
 input:focus{
