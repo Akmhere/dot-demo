@@ -15,24 +15,28 @@ p{
 
 }
 .akm{
-    padding: 0px 80px;
+    padding: 30px 60px;
 }
 #header{
-    background-color: #ffd700;
-    color: black;
+    background-color: #940000;
+    color: #fff;
   
 }
 nav{
-    background-color: #ffd700;
+    background-color: #940000;
 }
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
 }
+.my_vv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .abc_50{
     max-width: 100%;
     padding-left: 62px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 50px;
 }
 .sixty-two{
@@ -59,12 +63,14 @@ nav{
 .jjj{
     /* background-image: radial-gradient(circle, #d7e7e5, #cedcd7, #c7d1ca, #bfc6be, #b8bbb2); */
     padding: 30px 0px;
+    background-color: #940000;
 }
-/* .my_div{
+.my_div{
  
-} */
+display: flex;  
+}
 .my_bg{
-   
+   background-color: #fff;
     /* background-image: linear-gradient(to top, #ffffff, #fbfbfd, #f8f8fa, #f3f4f8, #eff1f6); */
     /* border: solid black 1px; */
     border-radius: 15px;
@@ -131,6 +137,29 @@ img{
     height: 42px !important;
     
 }
+.my_form-2{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #940000;
+    
+    /* -webkit-appearance: none; */
+    -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+    border-radius: 12px;
+    height: 42px !important;
+    
+}
+.my_form-2:focus{
+    box-shadow: none;
+}
 input:focus{
     box-shadow: 1px 0px 4px 2px black;
     transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
@@ -150,16 +179,16 @@ input:focus{
 .my_foot{
     text-decoration: none;
     color: #B9A99E;
-    padding: 10px;
+    padding: 15px;
 }
 .my_foot:hover{
     color: #d4966c;
 }
 .ktm{
-    background-image: linear-gradient(to right top, #045762, #00696f, #007b7b, #008d83, #1f9f89);
+    background-image: linear-gradient(to right top, #ffffff, #eeefef, #dddfdf, #cccfce, #bebfbc);
     padding: 50px;
     
-    color: #fff;
+    color: #940000;
     -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 30px;
@@ -188,20 +217,41 @@ input:focus{
     -moz-border-radius: 16;
     border-radius: 16px;
     font-family: 'Work Sans', sans-serif;
-    color: #ffffff;
-    font-weight: 500;
-    background: #080808;
+    color: black;
+    font-weight: 600;
+    background: #fff;
     padding: 13px 35px 13px 35px;
     text-decoration: none;
   }
   
-  .btm:hover {
+  /* .btm:hover {
     background: #000000;
     background-image: -webkit-linear-gradient(top, #000000, #18191a);
     background-image: -moz-linear-gradient(top, #000000, #18191a);
     background-image: -ms-linear-gradient(top, #000000, #18191a);
     background-image: -o-linear-gradient(top, #000000, #18191a);
     background-image: linear-gradient(to bottom, #000000, #18191a);
+    text-decoration: none;
+  } */
+  .sub-btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    
+    color: #ffffff;
+    border: none;
+    background: #940000;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+  }
+  
+  .sub-btn:hover {
+    background: #940000;
+    background-image: -webkit-linear-gradient(top, #940000, #872727);
+    background-image: -moz-linear-gradient(top, #940000, #872727);
+    background-image: -ms-linear-gradient(top, #940000, #872727);
+    background-image: -o-linear-gradient(top, #940000, #872727);
+    background-image: linear-gradient(to bottom, #940000, #872727);
     text-decoration: none;
   }
   .mobile-appears{
@@ -210,9 +260,15 @@ input:focus{
   .addear{
       display: initial;
   }
+  .mg-left{
+      margin-left: auto;
+  }
+  .mg-right{
+      margin-right: auto;
+  }
 @media screen and (max-width: 992px) {
     .fifty{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .fifty-up{
         padding-top: 40px;
@@ -221,22 +277,22 @@ input:focus{
         display: none;
     }
     .eighty-two{
-        padding-left: 20px;
+        padding-left: 30px;
     }
     .abc_50{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .sixty-two{
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .akm{
-        padding: 0px 40px;
+        padding: 10px 20px;
     }
    
   }
   @media screen and (max-width: 722px){
       .akm{
-          padding: 0 20px;
+          padding: 10 20px;
       }
   }
   @media screen and (max-width: 576px)
@@ -248,4 +304,12 @@ input:focus{
       .addear{
           display: none;
       }
+      .mg-left{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mg-right{
+        margin-right: auto;
+        margin-left: auto;
+    }
   }
