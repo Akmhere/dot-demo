@@ -352,6 +352,6 @@ input:focus{
   @media screen and (max-width: 476px)
   {
       .fnt-sz-h1{
-          font-size: 2rem !important;
+          font-size: 2.3rem !important;
       }
   }
