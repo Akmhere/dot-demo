@@ -287,6 +287,13 @@ input:focus{
   .mg-right{
       margin-right: auto;
   }
+  .fkl{
+      padding-bottom: 50px !important;
+  }
+  .fnt-sz-h1{
+      font-size: 3rem !important;
+      line-height: 1.3;
+  }
 @media screen and (max-width: 992px) {
     .fifty{
         padding-left: 10px;
@@ -321,7 +328,9 @@ input:focus{
   }
   @media screen and (max-width: 576px)
   {
-      
+    .fkl{
+        padding-bottom: 30px !important;
+    }
       .mobile-appears{
         display: initial;
     }
@@ -339,4 +348,10 @@ input:focus{
     .jjj{
         padding-top: 0px;
     }
+  }
+  @media screen and (max-width: 476px)
+  {
+      .fnt-sz-h1{
+          font-size: 2rem !important;
+      }
   }
