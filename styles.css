@@ -10,6 +10,13 @@ p{
     letter-spacing: 1px;
     font-weight: 600;
 }
+.head-logo{
+    width: 130px;border-radius: 50%;
+}
+.banner-padd{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 .drk{
     font-weight: 800;
 
@@ -319,6 +326,9 @@ input:focus{
    
   }
   @media screen and (max-width: 722px){
+    .head-logo{
+        width: 90px;
+    }
       .akm{
           padding: 10 20px;
       }
@@ -328,6 +338,10 @@ input:focus{
   }
   @media screen and (max-width: 576px)
   {
+    .banner-padd{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
     .fkl{
         padding-bottom: 30px !important;
     }
